@@ -15,6 +15,11 @@ public class Chia implements ITinhToan
     @Override
     public float tinh(float a, float b) 
     {
+        if(b==0){
+            System.out.println("Không chọ");
+            return 0;
+        }
+        else
         return a / b;
     }
     
